@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  server:
+    build:
+      dockerfile: ./python-server/Dockerfile
+    ports:
+      - "8888:80"
+  
+  client:
+    build:
+      dockerfile: ./python-client/Dockerfile
+    depends_on:
+      - server
