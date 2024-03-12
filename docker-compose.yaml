@@ -4,8 +4,6 @@ services:
   server:
     build:
       dockerfile: ./python-server/Dockerfile
-    ports:
-      - "8888:80"
   
   client:
     build:
