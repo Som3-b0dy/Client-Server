@@ -1,4 +1,4 @@
-# Python-Client-Server-in-Docker
+# Client-Server
 #### This application is a simple example of client/server communication written in Python and launched in Docker. How to use it?
 * docker-compose up  
 * ./spawn_clients.sh  
